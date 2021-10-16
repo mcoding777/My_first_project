@@ -8,11 +8,14 @@
 }
 
 html {
-    background-color: pink;
+    background-image: url("https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
     text-align: center;
+    color:  white;
 
     margin-top : 10px;
 }
@@ -22,13 +25,35 @@ a {
     color: black;
 }
 
+ul {
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+ul li {
+    padding : 30px;
+    text-align: center;
+}
+
+ul li a {
+    color: white;
+}
+
 #main_view {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
 
-    background-color: #ffe0e5;
+    background-color: rgba( 255, 255, 255, 0.5 );
 }
 
-#greeting {
-    display: grid;
+#main_view div {
+    padding : 50px 10px 50px 120px;
+    height : 500px;
 }
+
+#main_view #greeting {
+    padding : 100px 120px 100px 50px;
+}
+
