@@ -6,14 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome MISUN's World!</title>
     <link rel="stylesheet" href="index.css">
-    <script type="text/javascript" src="index.js"></script>
     <script>
-        function framework() {
-        document.getElementById("greeting").innerHTML = 
-'<h2>프레임워크</h2>'
-        }
-
-
 
     </script>
 </head>
@@ -38,7 +31,7 @@
                         <img src="https://images.unsplash.com/photo-1634058815807-9c8a94354101?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=385&q=80" width="500px" height="500px" alt="메인이미지">
                     </div>
                     <div id="greeting">
-                        <h2>안녕하세요! 새내기 개발자 임미선입니다 :)</h2>
+                        <h2>안녕하세요! 새내기 개발자입니다 :)</h2>
                         <br>
                         <br>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nulla quo facilis quidem mollitia dolores amet hic, molestias, illo, deserunt debitis quibusdam omnis officia delectus a dolore dignissimos assumenda. Quaerat!</p>
@@ -46,14 +39,14 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam placeat esse sequi quisquam. Cumque alias qui libero est, vitae ratione. Dolores ab corrupti inventore, dolore aliquid architecto accusamus id itaque.</p>
                         <br>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ut enim suscipit aspernatur id nisi, facere cumque sed possimus, molestiae aliquam pariatur rem ex repellendus voluptates saepe exercitationem nesciunt ad.</p>
-                        <span>
-                            <button>인사말</button>
+                        <span id="button1">
+                            <button onclick="greeting()">인사말</button>
                         </span>
-                        <span>
-                            <button>프레임워크</button>
+                        <span id="button2">
+                            <button onclick="framework()">프레임워크</button>
                         </span>
-                        <span>
-                            <button>프로젝트</button>
+                        <span id="button3">
+                            <button onclick="project()">프로젝트</button>
                         </span>
                     </div>
                 </div>
@@ -66,5 +59,6 @@
             </footer>
         </main>
     </div>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
