@@ -9,3 +9,7 @@ function framework() {
 function project() {
     document.querySelector("#greeting h2").innerHTML = '제가 작업한 프로젝트입니다 :)'
 }
+
+function handleClick(event) {
+    event.preventDefault()
+}
