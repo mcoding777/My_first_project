@@ -76,6 +76,14 @@ article div h2 {
     margin-bottom: 50px;
 }
 
+article div .todo_list {
+    width: 100%;
+    height: auto;
+    min-height: 360px;
+
+    position: relative;
+}
+
 article div input {
     width: 70%;
     padding: 10px;
@@ -89,6 +97,7 @@ article div button {
 
     padding: 10px;
     margin-left: 10px;
+
     border-radius: 15px;
     border-width: 0px;
 }
